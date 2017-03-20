@@ -1,2 +1,3 @@
 pynamodb
 humanize
+vceffort
