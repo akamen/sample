@@ -21,12 +21,16 @@ setup(
     keywords="sample example blackduck hub_python_plugin",
     url="http://packages.python.org/an_example_pypi_project",
     packages=[],
-    install_requires=["hub_python_plugin", "Delorean"],
+    install_requires=["hub_python_plugin", "Delorean", "pynamodb"],
     long_description=read('README'),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Topic :: Utilities",
         "License :: OSI Approved :: Apache 2.0 License",
     ],
-    entry_points={"distutils.commands": ["flatlist = hub_python_plugin.BlackDuckPlugin:BlackDuckCommand"]}
+    entry_points={"distutils.commands": ["bdio = hub_python_plugin.BlackDuckPlugin:BlackDuckCommand"]}
 )
+
+# from hub_python_plugin import BlackDuckPlugin
+# pkgs = BlackDuckPlugin.get_setup_dependencies("blackduck_sample_project==0.0.1
+# pkg = pkgs.pop(0)
