@@ -28,7 +28,8 @@ setup(
         "Topic :: Utilities",
         "License :: OSI Approved :: Apache 2.0 License",
     ],
-    entry_points={"distutils.commands": ["bdio = hub_python_plugin.BlackDuckPlugin:BlackDuckCommand"]}
+    entry_points={"distutils.commands": [
+        "bdio = hub_python_plugin.BlackDuckPlugin:BlackDuckCommand"]}
 )
 
 # from hub_python_plugin import BlackDuckPlugin
