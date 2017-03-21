@@ -19,7 +19,7 @@ setup(
     description=("A sample project for using the hub_python_plugin"),
     license="Apache 2.0",
     keywords="sample example blackduck hub_python_plugin",
-    url="http://packages.python.org/an_example_pypi_project",
+    url="https://github.com/blackducksoftware/hub-python-plugin",
     packages=[],
     install_requires=["hub_python_plugin", "Delorean", "pynamodb"],
     long_description=read('README'),
