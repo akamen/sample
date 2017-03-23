@@ -1,5 +1,6 @@
 import os
 from setuptools import setup
+import hub_python_plugin
 
 # Utility function to read the README file.
 # Used for the long_description.  It's nice, because now 1) we have a top level
@@ -13,7 +14,7 @@ def read(fname):
 
 setup(
     name="blackduck_sample_project",
-    version="0.0.1",
+    version="0.0.2",
     author="Black Duck Software",
     author_email="",
     description=("A sample project for using the hub_python_plugin"),
@@ -21,7 +22,7 @@ setup(
     keywords="sample example blackduck hub_python_plugin",
     url="https://github.com/blackducksoftware/hub-python-plugin",
     packages=[],
-    install_requires=["hub_python_plugin", "Delorean", "pynamodb"],
+    install_requires=["hub-python-plugin", "Delorean", "pynamodb"],
     long_description=read('README'),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
