@@ -1,2 +1,2 @@
 # sample
-# hub-python-plugin
+# bdsplugin
