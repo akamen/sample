@@ -190,3 +190,9 @@ ENV/
 .ropeproject
 /.project
 /.pydevproject
+
+
+.settings/
+deactivate/
+lsvirtualenv/
+sample_complex/
