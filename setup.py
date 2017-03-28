@@ -13,7 +13,7 @@ def read(fname):
 
 setup(
     name="blackduck_sample_project",
-    version="0.0.7",
+    version="0.0.8",
     author="Black Duck Software",
     author_email="",
     description=("A sample project for using the bdsplugin"),
