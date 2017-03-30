@@ -1,0 +1,2 @@
+six
+i_am_not_a_valid_package
