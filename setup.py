@@ -16,10 +16,10 @@ setup(
     version="0.0.8",
     author="Black Duck Software",
     author_email="",
-    description=("A sample project for using the bdsplugin"),
+    description=("A sample project for using the hub-pip"),
     license="Apache 2.0",
-    keywords="sample example blackduck bdsplugin",
-    url="https://github.com/blackducksoftware/bdsplugin",
+    keywords="sample example blackduck hub-pip",
+    url="https://github.com/blackducksoftware/hub_python_plugin",
     packages=[],
     install_requires=["Delorean", "pynamodb"],
     long_description=read('README'),
@@ -29,5 +29,5 @@ setup(
         "License :: OSI Approved :: Apache 2.0 License",
     ],
     entry_points={"distutils.commands": [
-        "bdio = bdsplugin.BlackDuckPlugin:BlackDuckCommand"]}
+        "bdio = hub_pip.BlackDuckPlugin:BlackDuckCommand"]}
 )
