@@ -1,2 +1,1 @@
-# sample
-# bdsplugin
+# Forked from JMathews.  
